@@ -1,0 +1,14 @@
+SELECT * FROM movies2
+ORDER BY rating DESC
+LIMIT 2;
+
+SELECT * FROM movies2
+ORDER BY genre ASC, rating DESC;
+
+SELECT * FROM movies2
+ORDER BY year ASC
+LIMIT 4;
+
+SELECT * FROM movies2
+LIMIT 2
+OFFSET 2;
